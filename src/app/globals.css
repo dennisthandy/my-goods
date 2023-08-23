@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0,0,0;
+  --background-start-rgb: 214,219,220;
+  --background-end-rgb: 255,255,255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 255,255,255;
+    --background-start-rgb: 0,0,0;
+    --background-end-rgb: 0,0,0;
   }
 }
 
@@ -24,4 +24,44 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.local-pride {
+  position: relative;
+}
+
+.local-pride::after,
+.local-pride::before {
+  position: absolute;
+  content: '';
+  right: 0;
+  width: 35px;
+  height: 10px;
+  z-index: 1;
+  border: 1px solid rgb(var(--background-end-rgb));
+}
+
+.local-pride::after {
+  background-color: red;
+  top: 0;
+  border-bottom-color: transparent;
+}
+
+.local-pride::before {
+  background-color: white;
+  top: 10px;
+  border-top-color: transparent;
 }
