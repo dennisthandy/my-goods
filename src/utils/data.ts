@@ -13,7 +13,7 @@ const stuff: Stuff[] = [
       country: 'Indonesia',
     },
     orderDate: '2022-09-09',
-    isLocal: true
+    isLocal: true,
   },
   {
     name: 'W210-A MASK',
@@ -29,7 +29,7 @@ const stuff: Stuff[] = [
       country: 'Indonesia',
     },
     orderDate: '2022-10-10',
-    isLocal: true
+    isLocal: true,
   },
   {
     name: 'S301 DEIMOS/OD',
@@ -45,7 +45,7 @@ const stuff: Stuff[] = [
       country: 'Indonesia',
     },
     orderDate: '2023-06-11',
-    isLocal: true
+    isLocal: true,
   },
   {
     name: 'AC00 INSIGNIA KIT',
@@ -61,7 +61,7 @@ const stuff: Stuff[] = [
       country: 'Indonesia',
     },
     orderDate: '2023-07-15',
-    isLocal: true
+    isLocal: true,
   },
   {
     name: 'S700-ADV SACOCHE',
@@ -77,7 +77,7 @@ const stuff: Stuff[] = [
       country: 'Indonesia',
     },
     orderDate: '2023-07-23',
-    isLocal: true
+    isLocal: true,
   },
   {
     name: 'AC201 KEYLOOP',
@@ -88,12 +88,12 @@ const stuff: Stuff[] = [
     images: ['acc-keyloop.webp', 'acc-keyloop-back.webp'],
     link: 'https://www.orbitgear.id/products/ac201-keyloop-mk23',
     manufacture: {
-      name: 'Orbit Geat',
+      name: 'Orbit Gear',
       url: 'https://www.orbitgear.id',
       country: 'Indonesia',
     },
     orderDate: '2023-07-23',
-    isLocal: true
+    isLocal: true,
   },
   {
     name: 'Bando Sport Pria',
@@ -109,6 +109,7 @@ const stuff: Stuff[] = [
       country: '',
     },
     orderDate: '2023-06-27',
+    isLocal: true
   },
   {
     name: 'STARFIELD',
@@ -141,11 +142,275 @@ const stuff: Stuff[] = [
     orderDate: '2022-11-07',
   },
   {
-    name: '',
-    category: 'Tas',
-    color: '',
+    name: 'MODZIP-3G',
+    category: 'Aksesoris',
+    color: '#000000',
     description:
-      '',
+      'MOD pertama dari Orbit Gear yang gw beli. Buat bikin tas-tas sebelumnya makin keren aja, sama bisa jadi tempat pulpen. haha',
+    images: ['acc-mod-1.webp', 'acc-mod-1-back.webp'],
+    link: 'https://www.orbitgear.id/products/modzip-3g-mk23',
+    manufacture: {
+      name: 'Orbit Gear',
+      url: 'https://www.orbitgear.id',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-31',
+    isLocal: true,
+  },
+  {
+    name: 'Cutter Mini',
+    category: 'Alat',
+    color: '#f5d6aa',
+    description: 'Yak barang aneh ini adalah pisau kecil keren nan minimalis dan bisa dipake untuk buka paket. hehe',
+    images: ['acc-cutter.jpeg', 'acc-cutter-1.jpeg'],
+    link: 'https://www.tokopedia.com/gadgettherapy/tegoni-pisau-cutter-mini-lipat-model-gantungan-kunci-pembuka-paket-dus',
+    manufacture: {
+      name: 'Tokopedia/Gadget Therapy',
+      url: 'tokopedia.com/gadgettherapy',
+      country: '-',
+    },
+    orderDate: '2023-09-02',
+  },
+  {
+    name: 'Amomg Us Patch',
+    category: 'Aksesoris',
+    color: '#e7b203',
+    description: 'Jujur beli ini cuma buat mempercantik looks tas-tas yang Saya miliki. hehe',
+    images: ['acc-patch-among-us.jpeg'],
+    link: 'https://www.tokopedia.com/guerillatactical/amomg-us-patch-kuning',
+    manufacture: {
+      name: 'Tokopedia/Guerilla Patch',
+      url: 'https://www.tokopedia.com/guerillatactical',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-09-02',
+    isLocal: true
+  },
+  {
+    name: 'PMC Girl Patch',
+    category: 'Aksesoris',
+    color: '#fe86e1',
+    description: 'Jujur beli ini cuma buat mempercantik looks tas-tas yang Saya miliki. hehe',
+    images: ['acc-patch-girl.jpeg'],
+    link: 'https://www.tokopedia.com/guerillatactical/pmc-girl-patches-patch',
+    manufacture: {
+      name: 'Tokopedia/Guerilla Patch',
+      url: 'https://www.tokopedia.com/guerillatactical',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-09-02',
+    isLocal: true
+  },
+  {
+    name: 'Shoe Cleaner Kit',
+    category: 'Alat',
+    color: '#058683',
+    description: 'Sudah pasti beli ini karena punya sepatu & pengen dirawat biar awet dan selalu seperti baru. wkkwkwk',
+    images: ['tool-shoe-cleaner.jpeg'],
+    link: 'https://www.tokopedia.com/shoesontop/shoe-cleaner-kit-soap-on-top-100ml-paket-100ml',
+    manufacture: {
+      name: 'Tokopedia/Shoes On Top',
+      url: 'https://www.tokopedia.com/shoesontop',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-29',
+    isLocal: true
+  },
+  {
+    name: 'Alat Semprot 1 Ltr',
+    category: 'Alat',
+    color: '#7a4730',
+    description: 'Beli alat semprot untuk menyemprot benda/tanaman yang ingin disemprot. wwkwkwk',
+    images: ['tool-sprayer.jpeg', 'tool-sprayer-1.jpeg'],
+    link: 'https://www.tokopedia.com/informa/informa-1-ltr-alat-semprot-cokelat',
+    manufacture: {
+      name: 'Tokopedia/informa',
+      url: 'https://www.tokopedia.com/informa',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-17',
+    isLocal: true,
+  },
+  {
+    name: 'Compost Bag',
+    category: 'Alat',
+    color: '#47645e',
+    description: 'Barang untuk mencoba membuat kompos sendiri, salah satu alat starter pack memulai berkebun ku. hehe',
+    images: ['tool-compost-bag.jpeg'],
+    link: 'https://www.tokopedia.com/tanduria/paket-kompos-small-tanduria-beli-compost-bag-free-t-dekomposer-250ml',
+    manufacture: {
+      name: 'Tokopedia/Tanduria',
+      url: 'https://www.tokopedia.com/tanduria',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-17',
+    isLocal: true
+  },
+  {
+    name: 'Garden Tools',
+    category: 'Alat',
+    color: '#000000',
+    description: 'Alat lain buat starter pack memulai berkebun ku. wkwkwk',
+    images: ['tool-garden-tools.jpeg'],
+    link: 'https://www.tokopedia.com/tanduria/tanduria-garden-tools-medium-sekop-garpu-cangkul-3-in-1',
+    manufacture: {
+      name: 'Tokopedia/Tanduria',
+      url: 'https://www.tokopedia.com/tanduria',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-16',
+    isLocal: true
+  },
+  {
+    name: 'Foldable Lunch Box',
+    category: 'Alat',
+    color: '#adacb3',
+    description: 'Termotivasi untuk membawa bekal sayur rebus ke kantor, buat melengkapi asupan serat ketika jam makan siang. hehe',
+    images: ['tool-lunch-box.jpeg', 'tool-lunch-box-1.jpeg'],
+    link: 'https://www.tokopedia.com/bamboo/bamboo-silicone-collapsible-foldable-lunch-box-kotak-makan-lipat-grey-m',
+    manufacture: {
+      name: 'Tokopedia/Bamboo Eco Store',
+      url: 'https://www.tokopedia.com/bamboo',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-15',
+  },
+  {
+    name: 'Petaka Akhir Zaman',
+    category: 'Buku',
+    color: '#f3f76f',
+    description: 'Buku yang kubeli karena terinspirasi melihat barang bukti terduga teroris. wkwkwk',
+    images: ['book-petaka-akhir-zaman.jpeg', 'book-petaka-akhir-zaman-1.jpeg'],
+    link: 'https://www.tokopedia.com/tokohargabuku/petaka-akhir-zaman',
+    manufacture: {
+      name: 'Tokopedia/Toko Harga Buku',
+      url: 'https://www.tokopedia.com/tokohargabuku',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-15',
+    isLocal: true,
+  },
+  {
+    name: 'Hexo Blue',
+    category: 'Aksesoris',
+    color: '#0277e2',
+    description: 'Pembelian jam pertama dalam hidupku. Tertarik karena dibuat dari limbah kayu di Jepara dan ini sangat kiyowo. wkwkwkw',
+    images: ['acc-hexo-blue.jpeg'],
+    link: 'https://www.tokopedia.com/woodkawatch/hexo-blue-hexo-blue-green-canvas-strap',
+    manufacture: {
+      name: 'Woodka',
+      url: 'https://woodka.fun/',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-10',
+    isLocal: true,
+  },
+  {
+    name: 'Canvas Strap',
+    category: 'Aksesoris',
+    color: '#000000',
+    description: 'Sekalian beli strap ke-2, buat variasi gaya jam makin keren. wkwkw',
+    images: ['acc-canvas-strap.jpeg'],
+    link: 'https://www.tokopedia.com/woodkawatch/woodka-canvas-strap-collection-smf-black',
+    manufacture: {
+      name: 'Woodka',
+      url: 'https://woodka.fun/',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-10',
+    isLocal: true,
+  },
+  {
+    name: 'Kaos Polos Spandek',
+    category: 'Busana',
+    color: '#000000',
+    description: 'Kaos dalam dengan kain spandex, nyoba buktikan melar parah apa enggak dalam pemakaian jangka panjang. wkkwk',
+    images: ['fash-clothes-black-1.jpeg'],
+    link: 'https://www.tokopedia.com/vm-vanmarvell/vm-kaos-polos-spandek-hitam-basic-hitam-m',
+    manufacture: {
+      name: 'Tokopedia/VM VanMarvell',
+      url: 'https://www.tokopedia.com/vm-vanmarvell',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-10',
+    isLocal: true
+  },
+  {
+    name: 'CORKCICLE Canteen',
+    category: 'Alat',
+    color: '#000000',
+    description: 'Ini adalah barang flash sale pertama yang aku dapatkan, auto jadi anak Jaksel wkwkw',
+    images: ['tool-corkcicle.jpeg'],
+    link: 'https://www.tokopedia.com/corkcicle/corkcicle-canteen-16oz-waterman-matte-black',
+    manufacture: {
+      name: 'Corkcicle',
+      url: 'https://corkcicle.com',
+      country: 'Orlando',
+    },
+    orderDate: '2023-08-08',
+  },
+  {
+    name: 'Boxer Hitam',
+    category: 'Busana',
+    color: '#000000',
+    description: 'Yak celana pendek itu mudah koyak, jadi saya beli lagi. wkwkw',
+    images: ['fash-short-pants.jpeg'],
+    link: 'https://www.tokopedia.com/oxladeunderwear/celana-pendek-santai-boxer-shorts-katun-holtby-holt-3-hawaii-satuan-hitam-l',
+    manufacture: {
+      name: 'Tokopedia/Oxlade Underwear',
+      url: 'https://www.tokopedia.com/oxladeunderwear',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-01',
+  },
+  {
+    name: 'Gunting Lipat',
+    category: 'Alat',
+    color: '#000000',
+    description: 'Karena gunting lama sudah tidak tajam, jadi beli gunting ini. Karena sangat unit dan keren. wkwkwk',
+    images: ['tool-scisors.jpeg'],
+    link: 'https://www.tokopedia.com/popitoi/kokuyo-urban-impression-fit-saxa-compact-pen-scissors-gunting-lipat-black',
+    manufacture: {
+      name: 'Tokopedia/Popitoi',
+      url: 'https://www.tokopedia.com/popitoi',
+      country: 'Japan',
+    },
+    orderDate: '2023-07-27',
+  },
+  {
+    name: 'Retrograde Hi',
+    category: 'Busana',
+    color: '#000000',
+    description: 'Pembelian sepatu pertama kali setelah selesai menempuh pendidikan formal. Mantep buat gowes B2W tentunya. hehe',
+    images: ['fash-shoes-retrograde.jpeg', 'fash-shoes-retrograde-1.jpeg'],
+    link: 'https://www.tokopedia.com/sepatucompass/compass-retrograde-hi-decon-black-white-42',
+    manufacture: {
+      name: 'Sepatu Compass',
+      url: 'https://sepatucompass.com/',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-07-10',
+    isLocal: true,
+  },
+  {
+    name: 'Kemeja Hitam',
+    category: 'Busana',
+    color: '#000000',
+    description: 'Karena minim baju lengan panjang, apalagi buat acara resmi, kayak kondangan. Jadi beli kemeja ini. wkwkwk',
+    images: ['fash-black-shirt.jpeg', 'fash-black-shirt-1.jpeg'],
+    link: 'https://www.tokopedia.com/platiniofficialstore/platini-kemeja-hitam-pria-lengan-panjang-katun-oxford-66206-l',
+    manufacture: {
+      name: 'Tokopedia/Platini Official Store',
+      url: 'https://www.tokopedia.com/platiniofficialstore',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-07-10',
+  },
+  {
+    name: '',
+    category: 'Aksesoris',
+    color: '#000000',
+    description: '',
     images: [],
     link: '',
     manufacture: {
@@ -153,8 +418,21 @@ const stuff: Stuff[] = [
       url: '',
       country: 'Indonesia',
     },
-    orderDate: '',
-    isLocal: true
+    orderDate: '2023-08-31',
+  },
+  {
+    name: '',
+    category: 'Aksesoris',
+    color: '#000000',
+    description: '',
+    images: [],
+    link: '',
+    manufacture: {
+      name: '',
+      url: '',
+      country: 'Indonesia',
+    },
+    orderDate: '2023-08-31',
   },
 ];
 

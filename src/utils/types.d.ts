@@ -6,6 +6,7 @@ type StuffCategory =
   | 'Alas Kaki'
   | 'Teknologi'
   | 'Kebun'
+  | 'Buku'
   | 'Aksesoris';
 
 type Stuff = {

@@ -52,7 +52,7 @@ export default function Home() {
               <ul className="text-sm">
                 <li>
                   <p>
-                    Tanggal Pesan:{' '}
+                    Tanggal Pembelian:{' '}
                     <span className="font-semibold">
                       {dayjs(orderDate).locale('id').format('MMMM DD, YYYY')}
                     </span>
